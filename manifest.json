@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "ChikesWeb",
+  "short_name": "ChikesWeb",
+  "version": "dev.is-a.tnt.chikes",
+  "description": "Chikes Chocolates Website",
+  "author": "Chikes in Partnership with TurquoiseTNT Tech",
+  "icons": [],
+  "start_url": "index.html"
+}

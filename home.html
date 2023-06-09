@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <title>Chikes</title>
+    </head>
+    <body>
+        <!-- NAVIGATION CODE: <nav class="navbar navbar-expand-lg bg-body-tertiary"> --- STICKY CODE: -->
+        <nav class="navbar sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo-title-dark.png" width="150px"></a>
+              <!-- NAVIATION IF NEEDED
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
+              </div>
+              -->
+            </div>
+          </nav>
+          <div class="center pfade">
+            <h1 style="color: white;">"A treat a week keeps your taste at peak"</h2>
+            <h4 style="color: white;">- The Chikes Team</h5>
+          </div>
+          <div class="center">
+            <h2 style="text-decoration: underline orange;">ABOUT</h2>
+            <p>Hi! We're <img src="img/logo-title-dark.png" height="40em" alt="Chikes">, a small chocolates company in England. Founded in 2023 - Chikes makes beuatiful chocolates for anyone and everyone to enjoy</p>
+            <h2 style="text-decoration: underline orange;">FLAVOURS</h2>
+            <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Cherry</h5>
+                  <p class="card-text">A sweet bursting flavour</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Milk Chocolate</h5>
+                  <p class="card-text">Your favourite feast, now in its glorious milky form</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Caramel</h5>
+                  <p class="card-text">The sticky filling to enjoy after a hardworking day</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Mint Bubble</h5>
+                      <p class="card-text">Feel the bubblegum flavours pop on your tounge</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Chocolate Many More</h5>
+                      <p class="card-text">The mysterious bunch</p>
+                    </div>
+                  </div>
+            </div>
+            <h2 style="text-decoration: underline orange; margin-top: 40px;">DONATE</h2>
+            <p>We are not currently accepting donations. PayPal donations will be coming soon.</p>
+          </div>
+          <nav class="navbar bg-body-tertiary">
+            <div>
+              <p style="scale: 75%;"><a href="#" style="text-decoration: none; color: black;">©️ Chikes Chocolates</a></p>
+              <p style="scale: 75%">Developed by <a href="https://tnt.is-a.dev/">TurquoiseTNT Technology</a> for Chikes Chocolates.</p>
+              <p style="scale: 75%">This website is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a></p>
+            </div>
+          </nav>
+        <script src="cordova.js"></script>
+        <script src="js/home.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>

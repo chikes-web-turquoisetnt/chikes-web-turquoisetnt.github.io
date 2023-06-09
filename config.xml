@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="dev.is-a.tnt.chikes" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ChikesWeb</name>
+    <description>Chikes Chocolates Website</description>
+    <author email="turquoisetntmultimedia@gmail.com" href="https://tnt.is-a.dev/">
+        Chikes in Partnership with TurquoiseTNT Tech
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
