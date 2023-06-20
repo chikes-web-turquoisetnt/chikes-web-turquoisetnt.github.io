@@ -130,3 +130,12 @@ body {
     background: #555;
     border-radius: 10px;
   }
+  #popdown {
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+  }
